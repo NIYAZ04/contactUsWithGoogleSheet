@@ -37,7 +37,7 @@ export default function ContactPage() {
     });
     const res = await response.json();
     console.log(res);
-// code by Mir Niyazul Haque
+
     if (res.result === "success") {
       toast.success('Thanks for contacting us!', {
         position: "top-right",
@@ -64,7 +64,7 @@ export default function ContactPage() {
 
     setValues({
       Name: '',
-      Email: '',// code by Mir Niyazul Haque
+      Email: '',
       Phone: '',
       Message: ''
     });
@@ -116,7 +116,7 @@ export default function ContactPage() {
                   <a href="https://www.linkedin.com/company/assessli/"><img src={ln} alt="linkedin" /></a>
                   <a href="https://twitter.com/assessli"><img src={twitter} alt="twitter" /></a>
                 </div>
-              </div>// code by Mir Niyazul Haque
+              </div>
             </div>
             <div className="col-12 col-lg-6 order-0 order-lg-1 d-flex justify-content-center align-items-center">
               <div className="container img-section">
@@ -130,4 +130,3 @@ export default function ContactPage() {
     </>
   );
 }
-// code by Mir Niyazul Haque
